@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5012075922020CC80011A8F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5012075822020CC80011A8F7 /* AppDelegate.swift */; };
+		5012075B22020CC80011A8F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5012075A22020CC80011A8F7 /* ViewController.swift */; };
+		5012075E22020CC80011A8F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5012075C22020CC80011A8F7 /* Main.storyboard */; };
+		5012076022020CCA0011A8F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5012075F22020CCA0011A8F7 /* Assets.xcassets */; };
+		5012076322020CCA0011A8F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5012076122020CCA0011A8F7 /* LaunchScreen.storyboard */; };
+		5012076E22020CCA0011A8F7 /* TrafficSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5012076D22020CCA0011A8F7 /* TrafficSegueTests.swift */; };
+		5012077922020CCA0011A8F7 /* TrafficSegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5012077822020CCA0011A8F7 /* TrafficSegueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5012076A22020CCA0011A8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5012074D22020CC80011A8F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5012075422020CC80011A8F7;
+			remoteInfo = TrafficSegue;
+		};
+		5012077522020CCA0011A8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5012074D22020CC80011A8F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5012075422020CC80011A8F7;
+			remoteInfo = TrafficSegue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5012075522020CC80011A8F7 /* TrafficSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5012075822020CC80011A8F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5012075A22020CC80011A8F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5012075D22020CC80011A8F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5012075F22020CCA0011A8F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5012076222020CCA0011A8F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5012076422020CCA0011A8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5012076922020CCA0011A8F7 /* TrafficSegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficSegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5012076D22020CCA0011A8F7 /* TrafficSegueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficSegueTests.swift; sourceTree = "<group>"; };
+		5012076F22020CCA0011A8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5012077422020CCA0011A8F7 /* TrafficSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficSegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5012077822020CCA0011A8F7 /* TrafficSegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficSegueUITests.swift; sourceTree = "<group>"; };
+		5012077A22020CCA0011A8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5012075222020CC80011A8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5012076622020CCA0011A8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5012077122020CCA0011A8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5012074C22020CC80011A8F7 = {
+			isa = PBXGroup;
+			children = (
+				5012075722020CC80011A8F7 /* TrafficSegue */,
+				5012076C22020CCA0011A8F7 /* TrafficSegueTests */,
+				5012077722020CCA0011A8F7 /* TrafficSegueUITests */,
+				5012075622020CC80011A8F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5012075622020CC80011A8F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5012075522020CC80011A8F7 /* TrafficSegue.app */,
+				5012076922020CCA0011A8F7 /* TrafficSegueTests.xctest */,
+				5012077422020CCA0011A8F7 /* TrafficSegueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5012075722020CC80011A8F7 /* TrafficSegue */ = {
+			isa = PBXGroup;
+			children = (
+				5012075822020CC80011A8F7 /* AppDelegate.swift */,
+				5012075A22020CC80011A8F7 /* ViewController.swift */,
+				5012075C22020CC80011A8F7 /* Main.storyboard */,
+				5012075F22020CCA0011A8F7 /* Assets.xcassets */,
+				5012076122020CCA0011A8F7 /* LaunchScreen.storyboard */,
+				5012076422020CCA0011A8F7 /* Info.plist */,
+			);
+			path = TrafficSegue;
+			sourceTree = "<group>";
+		};
+		5012076C22020CCA0011A8F7 /* TrafficSegueTests */ = {
+			isa = PBXGroup;
+			children = (
+				5012076D22020CCA0011A8F7 /* TrafficSegueTests.swift */,
+				5012076F22020CCA0011A8F7 /* Info.plist */,
+			);
+			path = TrafficSegueTests;
+			sourceTree = "<group>";
+		};
+		5012077722020CCA0011A8F7 /* TrafficSegueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5012077822020CCA0011A8F7 /* TrafficSegueUITests.swift */,
+				5012077A22020CCA0011A8F7 /* Info.plist */,
+			);
+			path = TrafficSegueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5012075422020CC80011A8F7 /* TrafficSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5012077D22020CCA0011A8F7 /* Build configuration list for PBXNativeTarget "TrafficSegue" */;
+			buildPhases = (
+				5012075122020CC80011A8F7 /* Sources */,
+				5012075222020CC80011A8F7 /* Frameworks */,
+				5012075322020CC80011A8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrafficSegue;
+			productName = TrafficSegue;
+			productReference = 5012075522020CC80011A8F7 /* TrafficSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5012076822020CCA0011A8F7 /* TrafficSegueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5012078022020CCA0011A8F7 /* Build configuration list for PBXNativeTarget "TrafficSegueTests" */;
+			buildPhases = (
+				5012076522020CCA0011A8F7 /* Sources */,
+				5012076622020CCA0011A8F7 /* Frameworks */,
+				5012076722020CCA0011A8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5012076B22020CCA0011A8F7 /* PBXTargetDependency */,
+			);
+			name = TrafficSegueTests;
+			productName = TrafficSegueTests;
+			productReference = 5012076922020CCA0011A8F7 /* TrafficSegueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5012077322020CCA0011A8F7 /* TrafficSegueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5012078322020CCA0011A8F7 /* Build configuration list for PBXNativeTarget "TrafficSegueUITests" */;
+			buildPhases = (
+				5012077022020CCA0011A8F7 /* Sources */,
+				5012077122020CCA0011A8F7 /* Frameworks */,
+				5012077222020CCA0011A8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5012077622020CCA0011A8F7 /* PBXTargetDependency */,
+			);
+			name = TrafficSegueUITests;
+			productName = TrafficSegueUITests;
+			productReference = 5012077422020CCA0011A8F7 /* TrafficSegueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5012074D22020CC80011A8F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Chinonso Obidike";
+				TargetAttributes = {
+					5012075422020CC80011A8F7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5012076822020CCA0011A8F7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5012075422020CC80011A8F7;
+					};
+					5012077322020CCA0011A8F7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5012075422020CC80011A8F7;
+					};
+				};
+			};
+			buildConfigurationList = 5012075022020CC80011A8F7 /* Build configuration list for PBXProject "TrafficSegue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5012074C22020CC80011A8F7;
+			productRefGroup = 5012075622020CC80011A8F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5012075422020CC80011A8F7 /* TrafficSegue */,
+				5012076822020CCA0011A8F7 /* TrafficSegueTests */,
+				5012077322020CCA0011A8F7 /* TrafficSegueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5012075322020CC80011A8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5012076322020CCA0011A8F7 /* LaunchScreen.storyboard in Resources */,
+				5012076022020CCA0011A8F7 /* Assets.xcassets in Resources */,
+				5012075E22020CC80011A8F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5012076722020CCA0011A8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5012077222020CCA0011A8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5012075122020CC80011A8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5012075B22020CC80011A8F7 /* ViewController.swift in Sources */,
+				5012075922020CC80011A8F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5012076522020CCA0011A8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5012076E22020CCA0011A8F7 /* TrafficSegueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5012077022020CCA0011A8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5012077922020CCA0011A8F7 /* TrafficSegueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5012076B22020CCA0011A8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5012075422020CC80011A8F7 /* TrafficSegue */;
+			targetProxy = 5012076A22020CCA0011A8F7 /* PBXContainerItemProxy */;
+		};
+		5012077622020CCA0011A8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5012075422020CC80011A8F7 /* TrafficSegue */;
+			targetProxy = 5012077522020CCA0011A8F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5012075C22020CC80011A8F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5012075D22020CC80011A8F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5012076122020CCA0011A8F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5012076222020CCA0011A8F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5012077B22020CCA0011A8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5012077C22020CCA0011A8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5012077E22020CCA0011A8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrafficSegue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.TrafficSegue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5012077F22020CCA0011A8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrafficSegue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.TrafficSegue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5012078122020CCA0011A8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrafficSegueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.TrafficSegueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficSegue.app/TrafficSegue";
+			};
+			name = Debug;
+		};
+		5012078222020CCA0011A8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrafficSegueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.TrafficSegueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficSegue.app/TrafficSegue";
+			};
+			name = Release;
+		};
+		5012078422020CCA0011A8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrafficSegueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.TrafficSegueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrafficSegue;
+			};
+			name = Debug;
+		};
+		5012078522020CCA0011A8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrafficSegueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.TrafficSegueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrafficSegue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5012075022020CC80011A8F7 /* Build configuration list for PBXProject "TrafficSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5012077B22020CCA0011A8F7 /* Debug */,
+				5012077C22020CCA0011A8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5012077D22020CCA0011A8F7 /* Build configuration list for PBXNativeTarget "TrafficSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5012077E22020CCA0011A8F7 /* Debug */,
+				5012077F22020CCA0011A8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5012078022020CCA0011A8F7 /* Build configuration list for PBXNativeTarget "TrafficSegueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5012078122020CCA0011A8F7 /* Debug */,
+				5012078222020CCA0011A8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5012078322020CCA0011A8F7 /* Build configuration list for PBXNativeTarget "TrafficSegueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5012078422020CCA0011A8F7 /* Debug */,
+				5012078522020CCA0011A8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5012074D22020CC80011A8F7 /* Project object */;
+}
